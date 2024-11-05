@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Social links profile</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      @font-face {
+        font-family: inter;
+        src: url(./assets/fonts/Inter-VariableFont_slnt\wght.ttf);
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+      body {
+        height: 100dvh;
+        background-color: hsl(0, 0%, 8%);
+        font-size: 14px;
+        font-family: inter, system-ui, -apple-system, BlinkMacSystemFont,
+          "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+          "Helvetica Neue", sans-serif;
+        color: hsl(0, 0%, 100%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+      }
+      a {
+        text-decoration: none;
+        color: hsl(0, 0%, 100%);
+        font-weight: 700;
+      }
+      h1 {
+        font-weight: 600;
+        margin-bottom: -5px;
+      }
+      h2 {
+        color: hsl(75, 94%, 57%);
+        font-weight: 600;
+        font-size: 17px;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 20px;
+      }
+      button {
+        border: none;
+        background-color: hsl(0, 0%, 20%);
+        padding: 10px 50px;
+        border-radius: 7px;
+      }
+      .card {
+        padding: 50px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: hsl(0, 0%, 12%);
+      }
+      .links {
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+      }
+      img {
+        border-radius: 50%;
+        width: 110px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img src="./assets/images/avatar-jessica.jpeg" alt="jessica" />
+      <h1>Jessica Randall</h1>
+      <h2>London, United Kingdom</h2>
+      <p>"Front-end developer and avid reader."</p>
+      <div class="links">
+        <button tabindex="-1">
+          <a href="https://www.google.com">GitHub</a>
+        </button>
+        <button tabindex="-1">
+          <a href="">Frontend Mentor</a>
+        </button>
+        <button tabindex="-1">
+          <a href="">LinkedIn</a>
+        </button>
+        <button tabindex="-1">
+          <a href="">Twitter</a>
+        </button>
+        <button tabindex="-1">
+          <a href="">Instagram</a>
+        </button>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">ilyes benmalti</a>.
+    </div>
+  </body>
+</html>
